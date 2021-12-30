@@ -2,51 +2,31 @@
 
 body {
     background-color: #272626;
+    font: 30px Arial, sans-serif;
+    color: white;
 }
 
-#container {
+#container1, #container2 {
     font: bold 50px Arial, sans-serif;
     color: #e4e4e4fb;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    border: 1px solid gray;
+}
+h2 {
+    font-size: 1em;
 }
 div {
     margin: 5px;
 }
-.box1 {
+.box1, .box2, .box3, .box4, .box5, .box6, .box7{
     background-color: #0b8325;
     text-align: center;
     padding: 30px;
+}
+#container2 .box1{
+    background-color: #83190b;
+    text-align: center;
+    padding: 30px;
+}
 
-}
-.box2 {
-    background-color: #0b8325;
-    text-align: center;
-    padding: 30px;
-}
-.box3 {
-    background-color: #0b8325;
-    text-align: center;
-    padding: 30px;
-}
-.box4 {
-    background-color: #0b8325;
-    text-align: center;
-    padding: 30px;
-}
-.box5 {
-    background-color: #0b8325;
-    text-align: center;
-    padding: 30px;
-}
-.box6 {
-    background-color: #0b8325;
-    text-align: center;
-    padding: 30px;
-}
-.box7 {
-    background-color: #0b8325;
-    text-align: center;
-    padding: 30px;
-}

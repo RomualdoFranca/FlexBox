@@ -33,7 +33,35 @@ body {
     background-color: #00ca5b0c;
 }
 
-
+#col_container{ 
+    font: bold 2em Arial, sans-serif;
+    color: #e4e4e4fb;
+    display: flex;
+    flex-wrap: wrap;/* organizando as divs das colunas lado a lado*/
+    border: 1px solid gray;
+    background-color: #00ca5b0c;
+    width: 600px;
+}
+/*divs das colunas */
+.col_l, .col_r{ /*atribuindo as propriedades a coluna da esquerda e da direita*/
+    font: bold 1em Arial, sans-serif;
+    color: #e4e4e4fb;
+    display: flex;
+    flex-direction: column;/* organizando as divs que formando as colunas*/
+    border: 1px solid gray;
+    background-color: #00ca5b0c;
+    width: 250px;
+}
+/* atribuindo a propriedade de column-reverse a coluna da direita */
+.col_r{
+    font: bold 1em Arial, sans-serif;
+    color: #e4e4e4fb;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid gray;
+    background-color: #00ca5b0c;
+    width: 250px;
+}
 div {
     margin: 5px;
 }
@@ -47,8 +75,18 @@ div {
     text-align: center;
     padding: 30px 80px;
 }
-#container3 > div{ /* Most pratical way to select all divs within the container */
+/* .container {
+  flex-direction: row | row-reverse | column | column-reverse;
+} */
+#container3 > div{ /*  */
     background-color: #83710b;
+    text-align: center;
+    padding: 20px 30px;
+}
+/* atribuindo as propriedades tanto para as div que são filha da coluna da esquerda quanto da coluna
+direita */
+.col_l > div, .col_r > div {
+    background-color: #0b6183;
     text-align: center;
     padding: 20px 30px;
 }

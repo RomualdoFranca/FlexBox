@@ -9,43 +9,44 @@ body {
     color: #e4e4e4fb;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 div {
     margin: 5px;
 }
 .box1 {
-    background-color: darkorange;
+    background-color: #0b8325;
     text-align: center;
-    padding: 80px;
+    padding: 30px;
 
 }
 .box2 {
-    background-color: #ff3300;
+    background-color: #0b8325;
     text-align: center;
-    padding: 80px;
+    padding: 30px;
 }
 .box3 {
-    background-color: #fffb00;
+    background-color: #0b8325;
     text-align: center;
-    padding: 80px;
+    padding: 30px;
 }
 .box4 {
-    background-color: #75bb03;
+    background-color: #0b8325;
     text-align: center;
-    padding: 80px;
+    padding: 30px;
 }
 .box5 {
     background-color: #0b8325;
     text-align: center;
-    padding: 80px;
+    padding: 30px;
 }
 .box6 {
-    background-color: #01aa85;
+    background-color: #0b8325;
     text-align: center;
-    padding: 80px;
+    padding: 30px;
 }
 .box7 {
-    background-color: #0077ff;
+    background-color: #0b8325;
     text-align: center;
-    padding: 80px;
+    padding: 30px;
 }

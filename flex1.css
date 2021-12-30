@@ -42,6 +42,8 @@ body {
     background-color: #00ca5b0c;
     width: 600px;
 }
+/* This is shorthand for the flex-direction and flex-wrap properties */
+
 /*divs das colunas */
 .col_l, .col_r{ /*atribuindo as propriedades a coluna da esquerda e da direita*/
     font: bold 1em Arial, sans-serif;
@@ -62,6 +64,7 @@ body {
     background-color: #00ca5b0c;
     width: 250px;
 }
+
 div {
     margin: 5px;
 }
@@ -89,4 +92,20 @@ direita */
     background-color: #0b6183;
     text-align: center;
     padding: 20px 30px;
+}
+#col_container2{
+    font: bold 2em Arial, sans-serif;
+    color: #e4e4e4fb;
+    display: flex;
+    flex-flow: wrap;
+    /* flex-flow: column; */
+    border: 1px solid gray;
+    background-color: #00ca5b0c;
+    width: 400px;
+}
+.coluna1 > div, .coluna2 > div {
+    background-color: #6403d3c5;
+    text-align: center;
+    padding: 20px 30px;
+    width: 80px;
 }

@@ -2,31 +2,53 @@
 
 body {
     background-color: #272626;
-    font: 30px Arial, sans-serif;
+    font: 1em Arial, sans-serif;
     color: white;
 }
-
-#container1, #container2 {
-    font: bold 50px Arial, sans-serif;
+/* .container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+} */
+#container1{
+    font: bold 2em Arial, sans-serif;
     color: #e4e4e4fb;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid gray;
+    background-color: #00ca5b0c;
 }
-h2 {
-    font-size: 1em;
+#container2{
+    font: bold 2em Arial, sans-serif;
+    color: #e4e4e4fb;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border: 1px solid gray;
+    background-color: #00ca5b0c;
 }
+#container3{
+    font: bold 2em Arial, sans-serif;
+    color: #e4e4e4fb;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid gray;
+    background-color: #00ca5b0c;
+}
+
+
 div {
     margin: 5px;
 }
 .box1, .box2, .box3, .box4, .box5, .box6, .box7{
     background-color: #0b8325;
     text-align: center;
-    padding: 30px;
+    padding: 30px 80px;
 }
-#container2 .box1{
+#container2 > div{ /* Most pratical way to select all divs within the container */
     background-color: #83190b;
     text-align: center;
-    padding: 30px;
+    padding: 30px 80px;
 }
-
+#container3 > div{ /* Most pratical way to select all divs within the container */
+    background-color: #83710b;
+    text-align: center;
+    padding: 20px 30px;
+}

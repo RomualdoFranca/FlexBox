@@ -128,15 +128,36 @@ direita */
     width: 80px;
     
 }
-#container4 > .box1 {
+/* .container {
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start |
+   end | self-start | self-end + ... safe | unsafe;
+} */
+#container5 {
+    height: 400px;
+    display: flex;
+    border: 1px solid gray;
+    font: bold 2em Arial, sans-serif;
+    /* align-items: flex-end;*/
+    align-items: self-start;
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+}
+
+#container5 > .box1 {
     width: 80px;
-    height: 150px;
+    height: 190px;
 }
-#container4 > .box2 {
+#container5 > .box2 {
     width: 250px;
-    height: 30px;
+    height: 50px;
 }
-#container4 > .box3 {
+#container5 > .box3 {
     width: 150px;
     height: 90px;
+}
+#container5 {
+    display: flex;
+
 }
